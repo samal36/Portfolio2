@@ -1,0 +1,241 @@
+#hero-section {
+    width: 1440px;
+    max-height: 650px;
+
+    background: linear-gradient(90deg, #000035 0%, #002BFD 33.33%, #1FE2D3 66.66%, #B2FF4E 100%);
+}
+
+#hero-heading {
+    width: 574px;
+    height: 379px;
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+#hero-passage {
+    width: 574px;
+    height: 122px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #CECECE;
+
+}
+
+#hero-passage2 {
+    width: 613px;
+    height: 59px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #ffffff;
+}
+
+#about {
+    width: 1328px;
+    height: 504px;
+
+    background: linear-gradient(90deg, #000035 0%, #003AF6 100%);
+    box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#about-image {
+    width: 349px;
+    height: 349px;
+    background: url(eaa476cb-9381-459f-a161-344629a278dd.jpg);
+    box-shadow: 0px 0px 30px 50px rgba(0, 58, 246, 0.5);
+}
+
+#about-passage1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#about-passage2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#about-passage3 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+
+}
+
+#skills-hero {
+    width: 794px;
+    height: 60px;
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+
+    color: #000000;
+
+}
+
+#skills-passage {
+    width: 1384px;
+    height: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #848A96;
+}
+
+#skills-html {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-bootstrap {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-react {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-version {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-figma {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-team {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-adaptable {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-html {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-responsive {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-fastpaced {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#skills-java {
+    width: 227px;
+    height: 227px;
+
+    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#project-hedding {
+    width: 794px;
+    height: 60px;
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+
+    color: #000000;
+}
+
+#project-passage {
+    width: 1384px;
+    height: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #848A96;
+}
+
+#project-image-1 {
+    width: 630px;
+    height: 404px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
