@@ -22,9 +22,6 @@
 
     font-family: 'DM Serif Display';
     font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 80px;
     color: #FFFFFF;
 }
 
@@ -32,9 +29,6 @@
 
     font-family: 'DM Sans';
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
 
     color: #CECECE;
 
@@ -43,9 +37,7 @@
 #hero-passage2 {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+
 
     color: #ffffff;
 }
@@ -99,88 +91,88 @@
 }
 
 #skills-html {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-bootstrap {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-react {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-version {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-figma {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-team {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-adaptable {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-html {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-responsive {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-fastpaced {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #skills-java {
-    width: 227px;
-    height: 227px;
+    width: 180px;
+    height: 180px;
 
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
@@ -224,7 +216,7 @@
     background: linear-gradient(90.06deg, #002BFD -0.19%, #1FE2D3 63.44%, #B2FF4E 99.94%);
 }
 
-#contact {
+#contact-me {
     background: linear-gradient(90.24deg, #000035 0.24%, #002BFD 99.82%);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
 }
@@ -234,4 +226,8 @@
     height: 180px;
     background: #FFFFFF;
     border-radius: 0px 20px 20px 0px;
+}
+
+#footer-note {
+    background: linear-gradient(90deg, #000035 0%, #003AF6 51.44%, #000035 98.96%);
 }
