@@ -2,6 +2,9 @@
     background: linear-gradient(270.02deg, #000035 0.02%, #001B9F 47.76%, #000035 100.12%);
 } */
 
+
+
+/* sample*/
 #nav-heading {
     font-family: 'Dancing Script';
     font-style: normal;
@@ -18,29 +21,17 @@
     background: linear-gradient(90deg, #000035 0%, #002BFD 33.33%, #1FE2D3 66.66%, #B2FF4E 100%);
 }
 
-#hero-heading {
+#hero_message {
 
     font-family: 'DM Serif Display';
     font-style: normal;
     color: #FFFFFF;
 }
 
-#hero-passage {
-
-    font-family: 'DM Sans';
-    font-style: normal;
-
-    color: #CECECE;
-
-}
-
-#hero-passage2 {
-    font-family: 'Inter';
-    font-style: normal;
 
 
-    color: #ffffff;
-}
+
+
 
 #about {
     background: linear-gradient(90deg, #000035 0%, #003AF6 100%);
@@ -52,6 +43,18 @@
 
     background: url(eaa476cb-9381-459f-a161-344629a278dd.jpg);
     box-shadow: 0px 0px 30px 50px rgba(0, 58, 246, 0.5);
+
+    animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
 }
 
 #about-passage1 {
@@ -206,7 +209,7 @@
 
 #project-image-1 {
     width: 700px;
-    height: 404px;
+    max-height: max-content;
     background: #FFFFFF;
     box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -240,4 +243,31 @@
 
 #footer-note {
     background: linear-gradient(90deg, #000035 0%, #003AF6 51.44%, #000035 98.96%);
+}
+
+.topblob {
+    width: 186px;
+    height: 186px;
+    flex-shrink: 0;
+    border-radius: 0px 93px;
+    background: url(images/blobtop.jpeg);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottomblob {
+    width: 186px;
+    height: 186px;
+    flex-shrink: 0;
+    border-radius: 93px 93px 0px 93px;
+    background: url(images/blobbottom.jpeg);
+}
+
+.rightblob {
+    width: 186px;
+    height: 403px;
+    flex-shrink: 0;
+    border-radius: 0px 93px 93px 0px;
+    background: url(images/blobright.jpeg);
 }
