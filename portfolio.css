@@ -19,32 +19,40 @@
 #hero-section {
     margin-top: 5em;
     background: linear-gradient(90deg, #000035 0%, #002BFD 33.33%, #1FE2D3 66.66%, #B2FF4E 100%);
+    height: 600px;
 }
 
 #hero_message {
-
+padding-top: px;
     font-family: 'DM Serif Display';
     font-style: normal;
     color: #FFFFFF;
+    
 }
-
-
-
-
-
+#about_special_char {
+    font-size: 1.4em;
+    color: #ffffff;
+}
 
 #about {
     background: linear-gradient(90deg, #000035 0%, #003AF6 100%);
     box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.25);
     border-radius: 0px 20px 20px 0px;
+    font-size: 1.3em;
+  
 }
+
+#hero-image {
+border-radius: 30px;
+}
+
 
 #about-image {
 
     background: url(eaa476cb-9381-459f-a161-344629a278dd.jpg);
     box-shadow: 0px 0px 30px 50px rgba(0, 58, 246, 0.5);
 
-    animation: pulse 2s infinite alternate;
+    animation: pulse 4s infinite alternate;
 }
 
 @keyframes pulse {
@@ -60,20 +68,26 @@
 #about-passage1 {
     font-family: 'DM Sans';
     font-style: normal;
-    color: #FFFFFF;
+    color: #848A96;
+   
 }
 
 #about-passage2 {
     font-family: 'DM Sans';
     font-style: normal;
-    color: #FFFFFF;
+    color: #848A96;
+    
 }
 
 #about-passage3 {
     font-family: 'DM Serif Display';
     font-style: normal;
-    color: #FFFFFF;
+    color: #848A96;
 
+}
+
+#offcanvas_passage {
+    font-size: 1em;
 }
 
 #skills-hero {
@@ -182,8 +196,7 @@
 }
 
 #project-hedding {
-    width: 794px;
-    height: 60px;
+
 
     font-family: 'DM Serif Display';
     font-style: normal;
@@ -195,8 +208,7 @@
 }
 
 #project-passage {
-    width: 1384px;
-    height: 60px;
+
 
     font-family: 'Inter';
     font-style: normal;
@@ -235,39 +247,12 @@
     /* position: relative; */
     height: 500px;
     /* Adjust the desired height */
-    background-image: url('images/heroImage.JPG');
+    background-image: url("images/background_image.jpeg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+
 }
 
 #footer-note {
     background: linear-gradient(90deg, #000035 0%, #003AF6 51.44%, #000035 98.96%);
-}
-
-.topblob {
-    width: 186px;
-    height: 186px;
-    flex-shrink: 0;
-    border-radius: 0px 93px;
-    background: url(images/blobtop.jpeg);
-    justify-content: center;
-    align-items: center;
-
-}
-
-.bottomblob {
-    width: 186px;
-    height: 186px;
-    flex-shrink: 0;
-    border-radius: 93px 93px 0px 93px;
-    background: url(images/blobbottom.jpeg);
-}
-
-.rightblob {
-    width: 186px;
-    height: 403px;
-    flex-shrink: 0;
-    border-radius: 0px 93px 93px 0px;
-    background: url(images/blobright.jpeg);
 }

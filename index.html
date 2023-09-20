@@ -11,378 +11,403 @@
 </head>
 
 <body>
-
-    <!-- navbar section -->
-    <section class="navbar-section mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar fixed-top navbar-dark bg-primary  navbar-expand-lg">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" id="nav-heading" href="#">Samal Maleesha</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav  ms-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#technical-skills" tabindex="1">Technical
-                                            Skills</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#projects" tabindex="2">Projects</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#contact-me" tabindex="3">Contact Me</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="images/profile-illustration.svg" download
-                                            tabindex="4">
-                                            Resume </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hero Section -->
-    <section id="hero-section" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column justify-content-center">
-                        <div id="hero_message">
-                            <h1 class="display-4">Creating Stunning Digital Experiences with Front-End Development</h1>
-                            <p class="lead">"I create immersive, visually stunning, highly functional websites"</p>
-                            <p class="lead">Actively looking for a Front-End Development position</p>
-                        </div>
-                        <button class="btn btn-primary">Scroll to learn more</button>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex justify-content-center">
-                    <div class="d-flex flex-row justify-content-center">
-                        <img src="images/profilepicture.jpg" class="rounded-circle w-50 p-3" id="about-image" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- about section -->
-    <section class="my-5">
-        <div class="container" id="about">
-            <div class="row d-flex align-items-center justify-content-center ">
-                <div class="col-sm-6 p-5 ">
-                    <div class="d-flex flex-row justify-content-center">
-                        <img src="images/profilepicture.jpg" class="rounded-circle w-50" id="about-image" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-6 p-3 m-sm-s-4">
-
-                    <p id="about-passage1">
-                        Hello there! <br>
-                        My name is Samal Maleesha and <br>
-                        I’m from San Jose, California, U.S.A
-                    </p>
-                    <p id="about-passage2">
-                        I’m a self motivated Front-end Developer, <br>
-                        and an Engineering student at <br>
-                        San Jose State University.
-                    </p>
-
-                    <div class="d-flex flex-row ">
-                        <p id="about-passage3">
-                            Open for job opportunities
-                        </p>
-                        <div class="spinner-grow text-warning spinner-grow-sm mx-2" id="spinner-batch" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                    </div>
-
-                    <div class="my-2 justify-content-end">
-                        <!-- Toogle button -->
-                        <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasLeft">Click here to learn more about me</button>
-
-                        <!-- Offcanvas -->
-                        <div class="offcanvas offcanvas-start" id="offcanvasLeft" tabindex="-1">
-                            <div class="offcanvas-header border-bottom">
-                                <h5 class="offcanvas-title">Left offcanvas</h5>
-                                <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
-                            </div>
-                            <div class="offcanvas-body" data-simplebar>
-                                <p class="fs-sm">Content for the offcanvas goes here. You can place just about any
-                                    Bootstrap component or custom elements here.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Technical skills section -->
-    <section id="technical-skills" class="my-5">
-        <div class="container">
-            <div class="row">
-                <h1 id="skills-hero">
-                    What I can bring to your team
-                </h1>
-                <p id="skills-passage">
-                    Skills are potentially driven with effort and I believe with time and dedication anything is
-                    possible
-                </p>
-            </div>
-            <div id="skills-tiles" class="my-2">
-                <div class="row  justify-content-around align-items-center">
-                    <div class="col-sm-2 text-white m-1" id="skills-html">
-                        <p>
-                            HTML <br>
-                            CSS <br>
-                            JS
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-braces"
-                            viewBox="0 0 16 16">
-                            <path
-                                d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z" />
-                        </svg>
-                    </div>
-                    <div class="col-sm-2 text-white m-1" id="skills-bootstrap">
-                        <p>Bootstrap</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
-                            class="bi bi-bootstrap" viewBox="0 0 16 16">
-                            <path
-                                d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z" />
-                            <path
-                                d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z" />
-                        </svg>
-                    </div>
-                    <div class="col-sm-2 text-white m-1" id="skills-react">
-                        <p>React</p>
-
-                    </div>
-                    <div class="col-sm-2 text-white m-1" id="skills-version">
-                        <p>Version Control</p>
-                    </div>
-                    <div class="col-sm-2 text-white m-1" id="skills-figma">
-                        <p>Figma</p>
-                    </div>
-                </div>
-                <div class="row  justify-content-around align-items-center">
-                    <div class="col-sm-2 text-white m-1" id="skills-team">
-                        <p>A team player</p>
-                    </div>
-                    <div class="col-sm-2 text-white m-1" id="skills-adaptable">
-                        <p>Adaptable & Self motivated</p>
-                    </div>
-                    <div class="col-sm-2 text-white m-1" id="skills-responsive">
-                        <p>Responsive web development</p>
-                    </div>
-                    <div class="col-sm-2 text-white m-1" id="skills-fastpaced">
-                        <p>Fast paced</p>
-                    </div>
-                    <div class="col-sm-2 text-white m-1" id="skills-java">
-                        <p>Java <br>
-                            Python</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- projects section -->
-    <section id="projects">
-        <div class="container">
-            <div class="row">
+    <header>
+        <!-- navbar section -->
+        <section class="navbar-section mb-5">
+            <div class="container">
                 <div class="row">
-                    <h1 id="project-hedding">
-                        My work
+                    <div class="col">
+                        <nav class="navbar fixed-top navbar-dark bg-primary  navbar-expand-lg">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" id="nav-heading" href="#">Samal Maleesha</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav  ms-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#technical-skills" tabindex="1">Technical
+                                                Skills</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#projects" tabindex="2">Projects</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact-me" tabindex="3">Contact Me</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="images/profile-illustration.svg" download
+                                                tabindex="4">
+                                                Resume </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero-section" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div id="hero_message">
+                                <h1 class="display-4">Creating Stunning Digital Experiences with Front-End Development
+                                </h1>
+                                <p class="lead">"I create immersive, visually stunning, highly functional websites"</p>
+                                <p class="lead">Actively looking for a Front-End Development position</p>
+                            </div>
+                            <button class="btn btn-primary">Scroll to learn more</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="images/heroImage.JPG" class="w-100 p-3" id="hero-image"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="my-5">
+            <div class="container" id="about">
+                <div class="row d-flex align-items-center justify-content-center ">
+                    <div class="col-sm-6 p-5 ">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="images/profilepicture.jpg" class="rounded-circle w-50" id="about-image" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-3 m-sm-s-4">
+
+                        <p id="about-passage1">
+                           <span id="about_special_char">Hello there!</span>  <br>
+                            My name is <span id="about_special_char">Samal Maleesha</span> and <br>
+                            I’m from <span id="about_special_char">San Jose, California, U.S.A</span>
+                        </p>
+                        <p id="about-passage2">
+                            I’m a self motivated <span id="about_special_char">Front-end Developer</span>, <br>
+                            and an Engineering student at <br>
+                            San Jose State University.
+                        </p>
+
+                        <div class="d-flex flex-row ">
+                            <p id="about-passage3">
+                                <span id="about_special_char">Open for job opportunities</span>
+                            </p>
+                            <div class="spinner-grow text-warning spinner-grow-sm mx-2" id="spinner-batch"
+                                role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+
+                        <div class="my-2 justify-content-end">
+                            <!-- Toogle button -->
+                            <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasLeft">Click here to learn more about me</button>
+
+                            <!-- Offcanvas -->
+                            <div class="offcanvas offcanvas-start" id="offcanvasLeft" tabindex="-1">
+                                <div class="offcanvas-header border-bottom">
+                                    <h5 class="offcanvas-title">About me</h5>
+                                    <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
+                                </div>
+                                <div class="offcanvas-body" data-simplebar>
+                                    <div id="offcanvas_passage">
+                                        
+                                       <p>Hello, I'm Samal Maleesha Meegoda Wijendra Waduge, an aspiring Front-End Developer with a passion for crafting beautiful and user-friendly web experiences. While my journey initially led me to the world of Electrical Engineering as a student, I've discovered my true calling lies in the realm of web development.</p>  <br>
+                                       <p>Currently, I balance my role as a Sales Representative with my relentless pursuit of Front-End Development knowledge. Every day, I dive headfirst into the captivating world of code, always seeking to expand my skill set and embrace new challenges.</p>  <br>
+                                       <p>Originally hailing from the picturesque island nation of Sri Lanka, I now call the vibrant city of San Jose, California, my home. The diverse cultural landscape and tech-savvy environment here inspire my creativity and push me to stay at the forefront of web development trends.</p>  <br>
+                                       <p>Beyond the world of coding, I find solace in art and the serene embrace of nature. I have a profound love for painting, often immersing myself in the colors and textures of my canvas. When I'm not busy with code, you'll often find me exploring the beauty of the natural world or seeking solace in calm, quiet places.</p>  <br>
+                                       <p>As a Front-End Developer, my goal is to seamlessly blend my technical expertise with my passion for design to create web experiences that not only function flawlessly but also captivate and engage users. With each project, I strive to bring together the worlds of creativity and technology, transforming ideas into stunning digital realities.</p>  <br>
+                                       <p>Thank you for visiting my portfolio. I invite you to explore my work and join me on this exciting journey of innovation and imagination. <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical skills section -->
+        <section id="technical-skills" class="my-5">
+            <div class="container">
+                <div class="row">
+                    <h1 id="skills-hero">
+                        What I can bring to your team
                     </h1>
-                    <p id="project-passage">
-                        Projects reflects the skills I’m capable of
+                    <p id="skills-passage">
+                        Skills are potentially driven with effort and I believe with time and dedication anything is
+                        possible
                     </p>
                 </div>
-                <div class="row d-flex justify-content-evenly my-5">
-                    <div class="col-sm-5 d-flex">
-                        <div class="col-1 h3">1.</div>
-                        <div class="col-11">
-                            <div class="row h2">Project Salon peacock</div>
-                            <div class="row">
-                                I initially started this project as a practise webpage and ended up creating a website
-                                for my aunt. <br>
+                <div id="skills-tiles" class="my-2">
+                    <div class="row  justify-content-around align-items-center">
+                        <div class="col-sm-2 text-white m-1" id="skills-html">
+                            <p>
+                                HTML <br>
+                                CSS <br>
+                                JS
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white"
+                                class="bi bi-braces" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z" />
+                            </svg>
+                        </div>
+                        <div class="col-sm-2 text-white m-1" id="skills-bootstrap">
+                            <p>Bootstrap</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                class="bi bi-bootstrap" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z" />
+                                <path
+                                    d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z" />
+                            </svg>
+                        </div>
+                        <div class="col-sm-2 text-white m-1" id="skills-react">
+                            <p>React</p>
 
-                                Salon Peacock is an exquisite digital platform that combines style and beauty in the
-                                online realm. The website captures the essence of glamour and sophistication, inviting
-                                visitors to explore the salon's services and offerings. With an opulent homepage design,
-                                seamless navigation, and captivating visuals, Salon Peacock creates a luxurious user
-                                experience. The "About" page shares the salon's story and showcases its commitment to
-                                empowering individuals through exceptional styling. The "Services" section highlights a
-                                wide range of treatments, accompanied by vivid visuals that immerse visitors in the
-                                salon's ambiance. The "Gallery" presents visually arresting images that display the
-                                salon's artistic finesse and transformative services.
-                                The Salon Peacock website reflects the designer's passion for web development and serves
-                                as a testament to their ability to create aesthetically pleasing and functional
-                                platforms.
-                            </div>
-                            <div class="row my-2">#Bootstrap #React </div>
-                            <div class="row d-flex justify-content-around">
-                                <div class="col-4">
-                                    <a href="" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
-                                            fill="btn-primary" class="bi bi-github" viewBox="0 0 25 25">
-                                            <path
-                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                        </svg>
-                                    </a>
+                        </div>
+                        <div class="col-sm-2 text-white m-1" id="skills-version">
+                            <p>Version Control</p>
+                        </div>
+                        <div class="col-sm-2 text-white m-1" id="skills-figma">
+                            <p>Figma</p>
+                        </div>
+                    </div>
+                    <div class="row  justify-content-around align-items-center">
+                        <div class="col-sm-2 text-white m-1" id="skills-team">
+                            <p>A team player</p>
+                        </div>
+                        <div class="col-sm-2 text-white m-1" id="skills-adaptable">
+                            <p>Adaptable & Self motivated</p>
+                        </div>
+                        <div class="col-sm-2 text-white m-1" id="skills-responsive">
+                            <p>Responsive web development</p>
+                        </div>
+                        <div class="col-sm-2 text-white m-1" id="skills-fastpaced">
+                            <p>Fast paced</p>
+                        </div>
+                        <div class="col-sm-2 text-white m-1" id="skills-java">
+                            <p>Java <br>
+                                Python</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            </div>
+        </section>
+
+        <!-- projects section -->
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <h1 id="project-hedding">
+                            My work
+                        </h1>
+                        <p id="project-passage">
+                            Projects reflects the skills I’m capable of
+                        </p>
+                    </div>
+                    <div class="row d-flex justify-content-evenly my-5">
+                        <div class="col-sm-5 d-flex">
+                            <div class="col-1 h3">1.</div>
+                            <div class="col-11">
+                                <div class="row h2">Project Salon peacock</div>
+                                <div class="row">
+                                    I initially started this project as a practise webpage and ended up creating a
+                                    website
+                                    for my aunt. <br>
+
+                                    Salon Peacock is an exquisite digital platform that combines style and beauty in the
+                                    online realm. The website captures the essence of glamour and sophistication,
+                                    inviting
+                                    visitors to explore the salon's services and offerings. With an opulent homepage
+                                    design,
+                                    seamless navigation, and captivating visuals, Salon Peacock creates a luxurious user
+                                    experience. The "About" page shares the salon's story and showcases its commitment
+                                    to
+                                    empowering individuals through exceptional styling. The "Services" section
+                                    highlights a
+                                    wide range of treatments, accompanied by vivid visuals that immerse visitors in the
+                                    salon's ambiance. The "Gallery" presents visually arresting images that display the
+                                    salon's artistic finesse and transformative services.
+                                    The Salon Peacock website reflects the designer's passion for web development and
+                                    serves
+                                    as a testament to their ability to create aesthetically pleasing and functional
+                                    platforms.
                                 </div>
-                                <div class="col-4">
-                                    <a href="https://www.figma.com/file/KLyy2lVl9mjImb8ZwDr38m/Untitled?type=design&node-id=0%3A1&t=cbWSkNVu3WJIjcnI-1"
-                                        target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
-                                            viewBox="0 0 48 48">
-                                            <path fill="#e64a19"
-                                                d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z">
-                                            </path>
-                                            <path fill="#7c4dff"
-                                                d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z">
-                                            </path>
-                                            <path fill="#66bb6a"
-                                                d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z">
-                                            </path>
-                                            <path fill="#ff7043"
-                                                d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z">
-                                            </path>
-                                            <circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="https://salonpeacock-42a77.web.app/" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="dark"
-                                            class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
-                                            <path fill-rule="evenodd"
-                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
-                                        </svg>
-                                    </a>
+                                <div class="row my-2">#Bootstrap #React </div>
+                                <div class="row d-flex justify-content-around">
+                                    <div class="col-4">
+                                        <a href="" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+                                                fill="btn-primary" class="bi bi-github" viewBox="0 0 25 25">
+                                                <path
+                                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="https://www.figma.com/file/KLyy2lVl9mjImb8ZwDr38m/Untitled?type=design&node-id=0%3A1&t=cbWSkNVu3WJIjcnI-1"
+                                            target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+                                                height="100" viewBox="0 0 48 48">
+                                                <path fill="#e64a19"
+                                                    d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z">
+                                                </path>
+                                                <path fill="#7c4dff"
+                                                    d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z">
+                                                </path>
+                                                <path fill="#66bb6a"
+                                                    d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z">
+                                                </path>
+                                                <path fill="#ff7043"
+                                                    d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z">
+                                                </path>
+                                                <circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="https://salonpeacock-42a77.web.app/" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="dark"
+                                                class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                                            </svg>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="tns-carousel-wrapper tns-controls-static col-sm-5 mx-3 mt-5" id="project-image-1">
-                        <div class="tns-carousel-inner" data-carousel-options='{"gutter": 16}'>
-                            <div class="carousel-item active d-flex">
-                                <img src="images/salon.jpeg" class="d-block w-100 p-3" alt="Image">
-                            </div>
-                            <!-- <div class="carousel-item active">
+                        <div class="tns-carousel-wrapper tns-controls-static col-sm-5 mx-3 mt-5" id="project-image-1">
+                            <div class="tns-carousel-inner" data-carousel-options='{"gutter": 16}'>
+                                <div class="carousel-item active d-flex">
+                                    <img src="images/salon.jpeg" class="d-block w-100 p-3" alt="Image">
+                                </div>
+                                <!-- <div class="carousel-item active">
                                 <img src="images/image2.png" class="d-block w-50" alt="Image">
                             </div>
                             <div class="carousel-item active">
                                 <img src="images/image3.png" class="d-block w-50" alt="Image">
                             </div> -->
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row d-flex justify-content-evenly my-5">
-                    <div class="col-sm-5 d-flex">
-                        <div class="col-1 h3">2.</div>
-                        <div class="col-11">
-                            <div class="row h2">Project SPS Tours</div>
-                            <div class="row">
-                                This website is created for one of my co-worker since he owns a travel agent company.
-                                <br>
-                                This website is still under construction and hope to be deployed soon. <br>
-
-                                Wanderlust Destinations is a captivating website created for a prestigious travel agent
-                                company. The website's visually stunning homepage and intuitive navigation invite
-                                visitors to embark on unforgettable journeys. The "About Us" page shares the agency's
-                                passion for crafting tailor-made travel experiences, while the "Destinations" section
-                                showcases a wide range of meticulously curated travel options. The "Services" page
-                                offers personalized travel packages, and the "Blog" section provides valuable insights
-                                and inspiration. The "Contact Us" page ensures prompt and professional communication.
-                                The website reflects the designer's skill in web development and captures the agency's
-                                dedication to exceptional customer service and unforgettable travel experiences.
-                            </div>
-                            <div class="row my-2">
-                                <p>#Bootstrap #React </p>
-                            </div>
-                            <div class="row d-flex justify-content-around">
-                                <div class="col-4">
-                                    <a href="" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
-                                            fill="btn-primary" class="bi bi-github" viewBox="0 0 25 25">
-                                            <path
-                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="https://www.figma.com/file/ePIY6sF5PZJChc8gTcHnQu/Untitled?type=design&node-id=0%3A1&t=Zo0pM9URm6vN0Per-1"
-                                        target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
-                                            viewBox="0 0 48 48">
-                                            <path fill="#e64a19"
-                                                d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z">
-                                            </path>
-                                            <path fill="#7c4dff"
-                                                d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z">
-                                            </path>
-                                            <path fill="#66bb6a"
-                                                d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z">
-                                            </path>
-                                            <path fill="#ff7043"
-                                                d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z">
-                                            </path>
-                                            <circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="dark"
-                                            class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
-                                            <path fill-rule="evenodd"
-                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
-                                        </svg>
-                                    </a>
-                                </div>
-
-
                             </div>
                         </div>
+
                     </div>
 
-                    <div class="tns-carousel-wrapper tns-controls-static col-sm-5 mx-3 mt-5" id="project-image-1">
-                        <div class="tns-carousel-inner" data-carousel-options='{"gutter": 16}'>
-                            <div class="carousel-item active">
-                                <img src="images/travel.jpeg" class="d-block w-100 p-3" alt="Image">
+                    <div class="row d-flex justify-content-evenly my-5">
+                        <div class="col-sm-5 d-flex">
+                            <div class="col-1 h3">2.</div>
+                            <div class="col-11">
+                                <div class="row h2">Project SPS Tours</div>
+                                <div class="row">
+                                    This website is created for one of my co-worker since he owns a travel agent
+                                    company.
+                                    <br>
+                                    This website is still under construction and hope to be deployed soon. <br>
+
+                                    Wanderlust Destinations is a captivating website created for a prestigious travel
+                                    agent
+                                    company. The website's visually stunning homepage and intuitive navigation invite
+                                    visitors to embark on unforgettable journeys. The "About Us" page shares the
+                                    agency's
+                                    passion for crafting tailor-made travel experiences, while the "Destinations"
+                                    section
+                                    showcases a wide range of meticulously curated travel options. The "Services" page
+                                    offers personalized travel packages, and the "Blog" section provides valuable
+                                    insights
+                                    and inspiration. The "Contact Us" page ensures prompt and professional
+                                    communication.
+                                    The website reflects the designer's skill in web development and captures the
+                                    agency's
+                                    dedication to exceptional customer service and unforgettable travel experiences.
+                                </div>
+                                <div class="row my-2">
+                                    <p>#Bootstrap #React </p>
+                                </div>
+                                <div class="row d-flex justify-content-around">
+                                    <div class="col-4">
+                                        <a href="" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+                                                fill="btn-primary" class="bi bi-github" viewBox="0 0 25 25">
+                                                <path
+                                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="https://www.figma.com/file/ePIY6sF5PZJChc8gTcHnQu/Untitled?type=design&node-id=0%3A1&t=Zo0pM9URm6vN0Per-1"
+                                            target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+                                                height="100" viewBox="0 0 48 48">
+                                                <path fill="#e64a19"
+                                                    d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z">
+                                                </path>
+                                                <path fill="#7c4dff"
+                                                    d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z">
+                                                </path>
+                                                <path fill="#66bb6a"
+                                                    d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z">
+                                                </path>
+                                                <path fill="#ff7043"
+                                                    d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z">
+                                                </path>
+                                                <circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="dark"
+                                                class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                                            </svg>
+                                        </a>
+                                    </div>
+
+
+                                </div>
                             </div>
-                            <!-- <div class="carousel-item active">
+                        </div>
+
+                        <div class="tns-carousel-wrapper tns-controls-static col-sm-5 mx-3 mt-5" id="project-image-1">
+                            <div class="tns-carousel-inner" data-carousel-options='{"gutter": 16}'>
+                                <div class="carousel-item active">
+                                    <img src="images/travel.jpeg" class="d-block w-100 p-3" alt="Image">
+                                </div>
+                                <!-- <div class="carousel-item active">
                                 <img src="images/image2.png" class="d-block w-50" alt="Image">
                             </div>
                             <div class="carousel-item active">
                                 <img src="images/image3.png" class="d-block w-50" alt="Image">
                             </div> -->
+                            </div>
                         </div>
+
                     </div>
 
-                </div>
-
-                <!-- <div class="row d-flex my-5">
+                    <!-- <div class="row d-flex my-5">
                     <div class="col-sm-5 d-flex">
                         <div class="col-1 h3">3.</div>
                         <div class="col-11">
@@ -413,73 +438,96 @@
                     </div>
 
                 </div> -->
-            </div>
-    </section>
+                </div>
+        </section>
 
-    <!-- portfolio create section -->
-    <section class="my-5" id="portfolio">
-        <div class="container">
-            <div class="row py-5">
-                <div>
-                    <h3 class="text-white">
-                        Would you like to see how I <br>
-                        created this portfolio
-                    </h3>
-                    <a href="#">
-                        <button type="button" class="btn btn-primary">
-                            Click here
-                        </button>
-                    </a>
+        <!-- portfolio create section -->
+        <section class="my-5" id="portfolio">
+            <div class="container">
+                <div class="row py-5">
+                    <div>
+                        <h3 class="text-white">
+                            Would you like to see how I <br>
+                            created this portfolio
+                        </h3>
+                        <a href="#">
+                            <button type="button" class="btn btn-primary">
+                                Click here
+                            </button>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- contact section -->
-    <section id="contact-me" class="my-5">
-        <div class="container ">
-            <div class="row py-5 text-white">
-                <h1 id="contact-heading" class=" my-1">
-                    Let’s get connected
-                </h1>
-                <p class="my-1" id="contact-passage">
-                    Would you like to contact me, want to work with me or have an idea to share, <br>
-                    feel free to send me a message via any method below.
-                </p>
-            </div>
-            <div class="row d-flex  justify-content-around align-items-center py-5 text-dark">
-                <!-- <a href=""> -->
-                <div id="contact-tiles">
-                    <p> LinkedIn</p>
-                </div>
-                <!-- </a> -->
-                <div id="contact-tiles">
-                    <p> E-mail</p>
-                </div>
-                <div id="contact-tiles">
-                    <p> Git Hub </p>
-                </div>
-                <div id="contact-tiles">
-                    <p> Discord </p>
-                </div>
-                <div id="contact-tiles">
-                    <p> Facebook</p>
-                </div>
-                <div id="contact-tiles">
-                    <p> Twitter </p>
-                </div>
-            </div>
-        </div>
-
-        <section>
-            <div class="contact_photo">
             </div>
         </section>
 
+        <!-- contact section -->
+        <section id="contact-me" class="my-5">
+            <div class="container ">
+                <div class="row py-5 text-white">
+                    <h1 id="contact-heading" class=" my-1">
+                        Let’s get connected
+                    </h1>
+                    <p class="my-1" id="contact-passage">
+                        Would you like to contact me, want to work with me or have an idea to share, <br>
+                        feel free to send me a message via any method below.
+                    </p>
+                </div>
+                <div class="row justify-content-around align-items-center py-5 text-dark">
+                    <div class="col-sm-4 col-md-2">
+                      <a href="https://www.linkedin.com/in/samal-maleesha-36734024a/" target="_blank">
+                        <button class="btn btn-lg btn-block" id="contact-tiles">
+                          LinkedIn
+                        </button>
+                      </a>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                      <a href="mailto:sjsamal36@gmail.com" target="_blank">
+                        <button class="btn btn-lg btn-block" id="contact-tiles">
+                          E-mail
+                        </button>
+                      </a>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                      <a href="https://github.com/samal36" target="_blank">
+                        <button class="btn btn-lg btn-block" id="contact-tiles">
+                          Git-Hub
+                        </button>
+                      </a>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                      <a href="https://discord.com/channels/@me" target="_blank">
+                        <button class="btn btn-lg btn-block" id="contact-tiles">
+                          Discord
+                        </button>
+                      </a>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                      <a href="https://www.facebook.com/samal.maleesha.7/" target="_blank">
+                        <button class="btn btn-lg btn-block" id="contact-tiles">
+                          Facebook
+                        </button>
+                      </a>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                      <a href="https://twitter.com/SamalMaleesha" target="_blank">
+                        <button class="btn btn-lg btn-block" id="contact-tiles">
+                          Twitter
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <section>
+                <div class="contact_photo">
+                </div>
+            </section>
+    </main>
 
 
-        <!-- Footer section -->
-
+    <!-- Footer section -->
+    <footer>
         <section>
             <div class="row d-flex text-white text-center pt-2" id="footer-note">
                 <p>
@@ -487,11 +535,12 @@
                 </p>
             </div>
         </section>
+    </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous"></script>
-        <script src="portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
 </body>
 
 </html>
