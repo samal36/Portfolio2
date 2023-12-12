@@ -6,7 +6,6 @@
 
 /* sample*/
 #nav-heading {
-    font-family: 'Dancing Script';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -19,12 +18,11 @@
 #hero-section {
     margin-top: 5em;
     background: linear-gradient(90deg, #000035 0%, #002BFD 33.33%, #1FE2D3 66.66%, #B2FF4E 100%);
-    height: 600px;
+    height: 100vh;
 }
 
 #hero_message {
 padding-top: px;
-    font-family: 'DM Serif Display';
     font-style: normal;
     color: #FFFFFF;
     
@@ -66,21 +64,18 @@ border-radius: 30px;
 }
 
 #about-passage1 {
-    font-family: 'DM Sans';
     font-style: normal;
     color: #848A96;
    
 }
 
 #about-passage2 {
-    font-family: 'DM Sans';
     font-style: normal;
     color: #848A96;
     
 }
 
 #about-passage3 {
-    font-family: 'DM Serif Display';
     font-style: normal;
     color: #848A96;
 
@@ -91,14 +86,12 @@ border-radius: 30px;
 }
 
 #skills-hero {
-    font-family: 'DM Serif Display';
     font-style: normal;
     color: #000000;
 
 }
 
 #skills-passage {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -107,98 +100,15 @@ border-radius: 30px;
     color: #848A96;
 }
 
-#skills-html {
+#skills-html, #skills-bootstrap, #skills-react, #skills-version,#skills-figma,#skills-team,#skills-adaptable,#skills-responsive,
+#skills-fastpaced, #skills-java  {
     width: 180px;
     height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-bootstrap {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-react {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-version {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-figma {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-team {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-adaptable {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-html {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-responsive {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-fastpaced {
-    width: 180px;
-    height: 180px;
-
-    background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
-    border-radius: 0px 20px 20px 0px;
-}
-
-#skills-java {
-    width: 180px;
-    height: 180px;
-
     background: linear-gradient(88.82deg, #052077 2.52%, #0E35A9 48.2%, #B2FF4E 95.89%);
     border-radius: 0px 20px 20px 0px;
 }
 
 #project-hedding {
-
-
-    font-family: 'DM Serif Display';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
